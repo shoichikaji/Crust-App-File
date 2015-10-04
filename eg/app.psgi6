@@ -1,0 +1,7 @@
+#!/usr/bin/env perl6
+use v6;
+use lib "../lib";
+use Crust::App::File;
+
+my $app = Crust::App::File.new(:root(".."));
+$app.to-app;

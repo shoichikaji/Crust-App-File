@@ -1,0 +1,19 @@
+{
+  "name" : "Crust::App::File",
+  "source-url" : "git://github.com/shoichikaji/Crust-App-File.git",
+  "perl" : "v6",
+  "build-depends" : [ ],
+  "provides" : {
+    "Crust::App::File" : "lib/Crust/App/File.pm6",
+    "Crust::MIME" : "lib/Crust/MIME.pm6"
+  },
+  "depends" : [
+    "Crust"
+  ],
+  "description" : "",
+  "test-depends" : [ ],
+  "version" : "*",
+  "authors" : [
+    "Shoichi Kaji"
+  ]
+}
